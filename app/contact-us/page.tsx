@@ -19,43 +19,25 @@ export default function ContactUs() {
                 Have questions about CAP AI Budget Tracker? Our team is here to help you.
               </p>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-gray-50 p-6 rounded-lg">
+              <div className="flex justify-center">
+                <div className="bg-gray-50 p-6 rounded-lg max-w-md w-full">
                   <div className="flex items-center mb-4">
                     <div className="bg-primary-100 p-3 rounded-full mr-4">
                       <FaUser className="text-primary-600 text-xl" />
                     </div>
                     <div>
-                      <h3 className="font-semibold">Salman</h3>
+                      <h3 className="font-semibold">Andrew Low</h3>
                       <p className="text-gray-600 text-sm">Primary Contact</p>
                     </div>
                   </div>
                   <div className="ml-16 space-y-3">
                     <div className="flex items-center">
                       <FaPhone className="text-primary-600 mr-2" />
-                      <p>+923098675247</p>
+                      <p>+65 9465 1800</p>
                     </div>
                     <div className="flex items-center">
                       <FaEnvelope className="text-primary-600 mr-2" />
-                      <p>salmandotweb@gmail.com</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <div className="flex items-center mb-4">
-                    <div className="bg-primary-100 p-3 rounded-full mr-4">
-                      <FaUser className="text-primary-600 text-xl" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold">Nisar</h3>
-                      <p className="text-gray-600 text-sm">Secondary Contact</p>
-                    </div>
-                  </div>
-                  <div className="ml-16 space-y-3">
-                    <div className="flex items-center">
-                      <FaEnvelope className="text-primary-600 mr-2" />
-                      <p>salmandotweb@gmail.com</p>
+                      <p>andrewlow2457@gmail.com</p>
                     </div>
                   </div>
                 </div>
